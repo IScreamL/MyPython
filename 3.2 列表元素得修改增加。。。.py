@@ -37,11 +37,13 @@ del motorcycle[0]
 print('删除', motorcycle)
 
 # 5 pop()
-pop_mot = motorcycle.pop()
+print(motorcycle)
+pop_mot = motorcycle.pop(1)
 print(motorcycle)
 print('pop删除', pop_mot)
 
 # 7.remove()
+print(motorcycle)
 to_remove = 'yamaha'
 motorcycle.remove(to_remove)
 print('7.指定值删除',motorcycle)
