@@ -47,3 +47,5 @@ print(motorcycle)
 to_remove = 'yamaha'
 motorcycle.remove(to_remove)
 print('7.指定值删除',motorcycle)
+
+input('请输入值：')

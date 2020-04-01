@@ -19,3 +19,5 @@ print('sorted排序后的值',cars2)
 cars2.sort()
 print('sort排序后原始值',cars2)
 
+input('请输入值',)
+
